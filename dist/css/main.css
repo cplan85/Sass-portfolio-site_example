@@ -16,7 +16,7 @@
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3)));
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3));
   background-size: cover;
-  background-color: #436601;
+  background-color: #c9ea8d;
 }
 
 .home_name {
@@ -136,23 +136,23 @@
           transform: translateY(0);
 }
 
-.nav .menu-nav__item {
+.nav .menu-nav_item {
   -webkit-transform: translateX(100vw);
           transform: translateX(100vw);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
-.nav .menu-nav__item.open {
+.nav .menu-nav_item.open {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
-.nav .menu-nav__item.active > a {
+.nav .menu-nav_item.active > a {
   color: #ff652f;
 }
 
-.nav .menu-nav__link {
+.nav .menu-nav_link {
   display: inline-block;
   font-size: 2rem;
   text-transform: uppercase;
@@ -162,8 +162,28 @@
   transition: all 0.5s ease-in-out;
 }
 
-.nav .menu-nav__link:hover {
+.nav .menu-nav_link:hover {
   color: #ff652f;
+}
+
+.menu-nav_item:nth-child(1) {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.menu-nav_item:nth-child(2) {
+  -webkit-transition-delay: 0.35s;
+          transition-delay: 0.35s;
+}
+
+.menu-nav_item:nth-child(3) {
+  -webkit-transition-delay: 0.45s;
+          transition-delay: 0.45s;
+}
+
+.menu-nav_item:nth-child(4) {
+  -webkit-transition-delay: 0.55s;
+          transition-delay: 0.55s;
 }
 
 body {
